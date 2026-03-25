@@ -1,0 +1,7 @@
+jdk:
+  - openjdk8
+  - openjdk17
+before_install:
+  - ./prepare.sh
+install:
+  - ./build.sh
